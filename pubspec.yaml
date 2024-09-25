@@ -1,0 +1,27 @@
+name: tutorial
+description: Call and Sms Feature
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get_it: ^7.7.0
+  flutter_svg: ^2.0.10+1
+  url_launcher: ^6.3.0
+  fluttertoast: ^8.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  import_sorter: ^4.6.0
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

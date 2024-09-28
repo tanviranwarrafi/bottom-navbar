@@ -42,44 +42,6 @@ class _LandingScreenState extends State<LandingScreen> {
         type: BottomNavigationBarType.fixed,
         onTap: (index) => setState(() => _index = index),
         items: List.generate(BOTTOM_NAV_ITEMS.length, _itemBar).toList(),
-
-        /*[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home, color: Colors.white),
-            title: Text('Home', style: TextStyle(color: Colors.white)),
-            backgroundColor: Colors.deepOrange,
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.category,
-              color: Colors.white,
-            ),
-            title: Text(
-              'Category',
-              style: TextStyle(color: Colors.white),
-            ),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.settings,
-              color: Colors.white,
-            ),
-            title: Text(
-              'Settings',
-              style: TextStyle(color: Colors.white),
-            ),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.web,
-              color: Colors.white,
-            ),
-            title: Text(
-              'Website',
-              style: TextStyle(color: Colors.white),
-            ),
-          ),
-        ],*/
       ),
     );
   }
